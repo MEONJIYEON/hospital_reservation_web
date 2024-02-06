@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+	
+	<context:component-scan base-package="com.spring.*" />
+	<!-- 뷰어의 유치와 파일 확장자를 완성시키는 view resolver 설정  -->
+	<!-- /WEB-INF/views/boardviews/ + home  + .jsp (home.jsp) -->	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/reservationviews/" />
+		<property name="suffix" value=".jsp" />			
+	</bean>
+	
+	<!--  외부 파일을 이용하여 dataSource 객체 설정 -->
+	<context:property-placeholder location ="resources/config/database.properties"/>
+	
+	<bean id ="dataSource" class ="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+		<property name="driverClass" value="${jdbc.driverClass}"></property>
+		<property name="url" value="${jdbc.url}"></property>
+		<property name="username" value="${jdbc.username}"></property>
+		<property name="password" value="${jdbc.password}"></property> 
+	</bean>
+	
+	<!--  JDBC Template 객체 생성 -->
+	<bean id ="jdbcTemplate" class ="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+</beans>
