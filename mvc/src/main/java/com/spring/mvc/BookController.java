@@ -117,8 +117,6 @@ public class BookController {
 
 		BookDO book = bdao.resOne(bdo);
 
-//		mav.addObject("board", board);
-//		mav.setViewName("modifyBoardView");
 		model.addAttribute("book", book);
 		
 		return "resModify";
