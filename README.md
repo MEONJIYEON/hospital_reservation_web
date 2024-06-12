@@ -8,7 +8,7 @@
 
 <img src="https://github.com/MEONJIYEON/hospital_reservation_web/assets/108587227/355ff893-7420-4149-b90c-b59c6c22c6ef" />
 
-<img src="https://github.com/MEONJIYEON/hospital_reservation_web/assets/108587227/f144a0b6-b528-418e-9132-b063f6ea3c38" />
+<img src="https://github.com/MEONJIYEON/hospital_reservation_web/assets/108587227/4ee954fa-cc5d-4f92-b12c-08bab02fd3f8" />
 
 ### ✔ 개발 이유
 #### 1. 병원 통합 예약 홈페이지의 부재
