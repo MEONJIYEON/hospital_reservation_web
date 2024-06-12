@@ -6,6 +6,8 @@
 
 이 프로젝트는 사용자가 다양한 병원의 진료 예약을 손쉽게 할 수 있도록 돕는 통합 병원 예약 웹사이트입니다. 기존의 병원 예약 시스템은 병원마다 다르고, 통합된 예약 플랫폼이 부족하여 사용자가 여러 병원의 예약 방법을 익히고 사용하는 데 어려움이 있었습니다. 이를 해결하기 위해 본 프로젝트를 개발하게 되었습니다.
 
+<img src="https://github.com/MEONJIYEON/hospital_reservation_web/assets/108587227/c6162218-71d5-4ed6-9ffa-478af76632b7" width="600" />
+<img src="https://github.com/MEONJIYEON/hospital_reservation_web/assets/108587227/f144a0b6-b528-418e-9132-b063f6ea3c38" width="600" />
 ### ✔ 개발 이유
 #### 1. 병원 통합 예약 홈페이지의 부재
 
