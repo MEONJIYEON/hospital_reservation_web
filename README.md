@@ -24,6 +24,11 @@
 
 통합된 예약 시스템을 통해 사용자는 하나의 플랫폼에서 여러 병원의 예약을 관리할 수 있습니다.
 
+
+### ⭐ Tool
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=spring boot&logoColor=white">
+
+
 ### ✔ 주요 기능
 #### - 예약하기
 <img src="https://github.com/MEONJIYEON/hospital_reservation_web/assets/108587227/22f06e12-7e2f-4400-a71c-78650ada72aa" width="600" />
